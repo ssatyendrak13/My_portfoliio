@@ -1,7 +1,7 @@
 {
   "name": "satyendra-kumar-portfolio",
   "version": "0.1.0",
-  "homepage": "https://ssatyendrak13.github.io/Satyendra-portfolio",
+  "homepage": "https://ssatyendrak13.github.io/My_portfoliio",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
