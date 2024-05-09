@@ -1,0 +1,76 @@
+body{
+    @media (max-width : 920px) {
+        .pop-box{
+            width: 186px;
+        }
+    }
+    @media (max-height : 660px) {
+        .pop-box{
+            height: 290px;
+        }
+    }
+}
+.pop-box{
+    height: 40vh;
+    width: 20vw;
+    background-color: rgb(168, 91, 245);
+    /* background-color: rgb(204, 196, 213); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lebel-text{
+    color: black;
+    width: 50%;
+    font-weight: bold;
+    font-family: cursive;
+}
+.pop-text-field{
+    height: 45px;
+    width: 100%;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: hsla(271, 100%, 50%, 1);
+    background-color: rgb(206, 194, 218);
+    font-size: 1rem;
+    font-family: cursive;
+    padding: 5px;
+}
+.pop-text-field:focus{
+    border-width: 3px;
+    border-color: rgb(120, 9, 225);
+}
+.first{
+    display: inline-block;
+    width: 120px;
+}
+
+.first-text-btn{
+    margin: 0.5rem;
+    width: 100%;
+}
+.submit-btn{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: hsla(271, 100%, 50%, 1);
+    margin-top: 1rem;
+}
+.submit-btn:hover{
+    background-color: rgb(101, 9, 187);
+    font-weight: bold;
+}
+.welcome-text{
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    font-family: cursive;
+}
+.alertMessage-text{
+    color: rgb(117, 6, 6);
+}
